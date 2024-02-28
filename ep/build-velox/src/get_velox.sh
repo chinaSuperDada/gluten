@@ -16,16 +16,16 @@
 
 set -exu
 
-VELOX_REPO=https://github.com/oap-project/velox.git
+VELOX_REPO=https://github.com/chinaSuperDada/velox.git
 VELOX_BRANCH=branch-1.1
 VELOX_HOME=""
 
 #Set on run gluten on HDFS
-ENABLE_HDFS=OFF
+ENABLE_HDFS=ON
 #It can be set to OFF when compiling velox again
 BUILD_PROTOBUF=ON
 #Set on run gluten on S3
-ENABLE_S3=OFF
+ENABLE_S3=ON
 #Set on run gluten on GCS
 ENABLE_GCS=OFF
 
